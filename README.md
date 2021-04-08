@@ -1,9 +1,9 @@
 # Getting Started
-NesuCraft is an open-source project written in [ursina engine](https://github.com/pokepetter/ursina) for python.
+NesuCraft is an open-source project written in [ursina engine](https://github.com/pokepetter/ursina).
 
 
 ## Installation
-To run this program use the following command:
+To run the program use the following command
 
 ```pip install -r requirements.txt```
 
