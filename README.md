@@ -9,6 +9,7 @@ To run the program use the following command:
 
 and then run [main.py](https://github.com/CMihai99/nesucraft/blob/main/main.py).
 
+
 # Project
 
 ## TO-DOs
@@ -39,6 +40,8 @@ Hunger Bar
 
 Improved hand animations
 
+Optimized performance
+
 Expanded block collection - Have about 16 in total
 
 Terrain generation
@@ -46,6 +49,20 @@ Terrain generation
 Improved void
 
 Maximum reach - 4 blocks
+
+Add items - Have about 16 in total
+
+Chat
+
+Gamemode creative - no health/hunger bar and unlimited resources
+
+Switch between gamemodes
+
+## Problems
+
+If too many blocks are added, the game slows down very noticeably.
+There are a lot of gaps between textures which is caused by poorly drawn textures,
+can be improved by redrawing them.
 
 ## License
 [MIT License](https://choosealicense.com/licenses/mit/)
