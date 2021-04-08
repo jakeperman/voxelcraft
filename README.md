@@ -61,6 +61,7 @@ Switch between gamemodes
 ## Problems
 
 If too many blocks are added, the game slows down very noticeably.
+
 There are a lot of gaps between textures which is caused by poorly drawn textures,
 can be improved by redrawing them.
 
