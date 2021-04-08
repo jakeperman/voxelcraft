@@ -1,5 +1,5 @@
 # Getting Started
-Nesucraft is an open-source project written in [the ursina engine](https://github.com/pokepetter/ursina), simulating the popular game Minecraft.
+Voxelcraft is an open-source project written in [the ursina engine](https://github.com/pokepetter/ursina), simulating the popular game Minecraft.
 
 
 # Installation
