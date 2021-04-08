@@ -2,7 +2,6 @@
 Minecraft clone using Ursina Game-Engine for Python (3.9).
 Project status: Open-source
 Original version: https://github.com/pokepetter/ursina/blob/master/samples/minecraft_clone.py
-Repo Owner: https://github.com/CMihai99
 Contributor/s:
 '''
 
@@ -13,13 +12,11 @@ GOAL:
 Add as many features to match the original game as possible until January 1st, 2022
 
 
-
 PROBLEMS:
 
 1. If too many blocks are added, the game slows down very noticeably.
 2. There are a lot of gaps between textures which is caused by poorly drawn textures,
 can be improved by redrawing them.
-
 
 
 TO-DO:
@@ -56,10 +53,10 @@ dirt_texture = load_texture('assets/dirt_block.png')
 sky_texture = load_texture('assets/skybox.png')
 arm_texture = load_texture('assets/arm_texture.png')
 punch_sound = Audio('assets/punch_sound', loop = False, autoplay = False)
-grass_block = load_texture('assets/grass_block_3d.png') # Not created yet, being used for lower inventory
-stone_block = load_texture('assets/stone_block_3d.png') # Not created yet, being used for lower inventory
-brick_block = load_texture('assets/brick_block_3d.png') # Not created yet, being used for lower inventory
-dirt_block = load_texture('assets/dirt_block_3d.png')   # Not created yet, being used for lower inventory
+grass_block = load_texture('assets/grass_block_3d.png') # Not created yet, will be used for lower inventory
+stone_block = load_texture('assets/stone_block_3d.png') # Not created yet, will be used for lower inventory
+brick_block = load_texture('assets/brick_block_3d.png') # Not created yet, will be used for lower inventory
+dirt_block = load_texture('assets/dirt_block_3d.png')   # Not created yet, will be used for lower inventory
 
 
 # 13. Window settings
