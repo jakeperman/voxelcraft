@@ -39,13 +39,13 @@ Hunger Bar
 
 Improved hand animations
 
+Expanded block collection - Have about 16 in total
+
 Terrain generation
 
 Improved void
 
 Maximum reach - 4 blocks
-
-Expanded block collection - Have about 16 in total
 
 ## License
 [MIT License](https://choosealicense.com/licenses/mit/)
