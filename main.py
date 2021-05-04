@@ -60,7 +60,7 @@ dirt_block = load_texture('assets/dirt_block_3d.png')   # Not created yet, will 
 
 
 # 13. Window settings
-window.fps_counter.enabled = False
+window.fps_counter.enabled = True
 window.exit_button.visible = False
 
 
@@ -110,6 +110,7 @@ class Lower_Inventory(Entity):
             position = (-0.45,0.15),
             color = color.rgb(210, 210, 210)
             )
+        # self.visibile = False
 
         for key, value in kwargs.items():
             setattr(self, key, value)
@@ -143,6 +144,7 @@ class Lower_Inventory(Entity):
             x = x * 1/self.texture_scale[0],
             y = -y * 1/self.texture_scale[1],
             z = -.5,
+            visibile = False
             )
 
 
@@ -214,9 +216,13 @@ class Voxel(Button):
                 player.y += 1
                 invoke(setattr, player, 'y', player.y-1)
             # Open inventory
-            if held_keys['e down']:
+            if held_keys['e']:
                     lower_inventory.visible = True
                     mouse.visible = True
+            else:
+                lower_inventory.visible = False
+                mouse.visible = False
+
 
 
 # 9. Create sky
